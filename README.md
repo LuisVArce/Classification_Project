@@ -5,32 +5,18 @@ Reducing churn is one of the biggest challenges facing subscripition based servi
 
 ### Project Overview
 
-![project_overview](https://github.com/Yongliang-Shi/classification-project/blob/master/goal_slide.png)
+The goal of this project is to identify if the internet service type (DSL, Fiber Optic, none) matters when concerning the churn rate of customers. 
 
-- [Slide Presentation](https://docs.google.com/presentation/d/1-Tz2gOahfgPnrxUXUg3ajXOad044bb9LwJ7IkaCuDqw/edit?usp=sharing)
-- [Tableau Presentation](https://public.tableau.com/profile/yongliang.shi#!/vizhome/ReducingChurnRatebyTargetingRightCustomers/Story1)
+Although pricing is important to consumers, the type of service being provided to consumers in the telecommunications space is also important.
+This project will analyze isolate and analyze the two types of internet service being provided to Telco's consumers and will determine if
+the type of service being provided is related to the churn rate of those customers.
+
+My initial question is "Does the type of internet service being provided to customers affect Telco's revenue?"
 
 ## Data Dictionary
 
 **churn**: customer stop using services (yes or no).<br>
-**online_backup**: yes, no, or no internect service.<br>
-**tech_support**: yes, no, or no internect service.<br>
-**streaming_tv**: yes, no, or no internect service.<br>
-**streaming_movies**: yes, no, or no internect service.<br>
-**paperless_billing**: yes or no.<br> 
-**monthly_charges**: bill for the subscribed services every month (dollars).<br>
-**total_charges**: total bill for the subscribed services (dollars).<br>
-**partner**: yes or no.<br>
-**depedents**: yes or no.<br>
-**tenure**: number of months that a customer has subscribed for.<br>
-**phone_service**: yes or no.<br> 
-**multiple_lines**: yes, no or no phone service.<br> 
-**online_security**: yes, no, or no internect service.<br>
-**contract_type**: month-to-month, one-year or two-year.<br>
 **internet_service_type**: none, fiber optic, or DSL (digital subsriber line).<br>
-**payment_type**: credit card (automatic), bank transfer (automatic), mailed check or electronic check.<br>
-**gender**: female or male.<br>
-**senior_citizen**: yes or no.<br>
 
 
 ## Project Planning
@@ -42,8 +28,6 @@ obtain the data from the telco_churn database on the Codeup data science databas
 ### Prepare.py
 
 * Identify missing data
-
-* Merge variables with similarit
 
 * Encode variable as needed
 
@@ -58,16 +42,8 @@ obtain the data from the telco_churn database on the Codeup data science databas
     * Barplot target variable
     
 * Explore `churn`'s interactions with the categorical variables by treating it as a number 
-    * Demographic: senior_citizen, parnter_dependent and Male
-    * Services: multiple_lines, device_protection, tech_support, internet_service_type, streaming, and online_service
-    * Payment methods: paperless_billing and payment_type
-    * Contract: contract_type
-    
-* Explore `churn`'s interaction with the numeric variables
-    * tenure
-    * monthly_tenure
-    
-* Test 2 early hypothesis
+    * Services: internet_service_type
+
 
 ### Modeling and Evaluation
 
