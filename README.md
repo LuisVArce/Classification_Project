@@ -5,13 +5,9 @@ Reducing churn is one of the biggest challenges facing subscripition based servi
 
 ### Project Overview
 
-The goal of this project is to identify if the internet service type (DSL, Fiber Optic, none) matters when concerning the churn rate of customers. 
+The goal of this project is two-fold. First, identify the main drivers of churn. Second, ask the hypothesis "Do customers who have a higher monthly bill, churn more?"
 
-Although pricing is important to consumers, the type of service being provided to consumers in the telecommunications space is also important.
-This project will analyze isolate and analyze the two types of internet service being provided to Telco's consumers and will determine if
-the type of service being provided is related to the churn rate of those customers.
-
-My initial question is "Does the type of internet service being provided to customers affect Telco's revenue?"
+This project will explore these topics in the form of various classification models, including Logisitic Regression, KNN, Random Forest and Decision Tree. We will split the data into Train, Validate and Test to run our models and evaluate the accuracy of them.
 
 ## Data Dictionary
 **gender**: female or male.<br>
