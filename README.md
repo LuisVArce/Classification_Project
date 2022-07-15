@@ -14,9 +14,25 @@ the type of service being provided is related to the churn rate of those custome
 My initial question is "Does the type of internet service being provided to customers affect Telco's revenue?"
 
 ## Data Dictionary
-
+**gender**: female or male.<br>
+**senior_citizen**: yes or no.<br>
+**partner**: yes or no.<br>
+**depedents**: yes or no.<br>
+**tenure**: number of months that a customer has subscribed for.<br>
+**phone_service**: yes or no.<br> 
+**multiple_lines**: yes, no or no phone service.<br> 
+**online_security**: yes, no, or no internect service.<br>
+**online_backup**: yes, no, or no internect service.<br>
+**tech_support**: yes, no, or no internect service.<br>
+**streaming_tv**: yes, no, or no internect service.<br>
+**streaming_movies**: yes, no, or no internect service.<br>
+**paperless_billing**: yes or no.<br> 
+**monthly_charges**: bill for the subscribed services every month (dollars).<br>
+**total_charges**: total bill for the subscribed services (dollars).<br>
 **churn**: customer stop using services (yes or no).<br>
+**contract_type**: month-to-month, one-year or two-year.<br>
 **internet_service_type**: none, fiber optic, or DSL (digital subsriber line).<br>
+**payment_type**: credit card (automatic), bank transfer (automatic), mailed check or electronic check.<br>
 
 
 ## Project Planning
